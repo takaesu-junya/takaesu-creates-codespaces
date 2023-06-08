@@ -4,5 +4,5 @@
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {}
   },
-  "postStartCommand": "sudo apt update -y && sudo apt install neofetch"
+  "postStartCommand": "sudo apt update -y && sudo apt install neofetch -y"
 }
